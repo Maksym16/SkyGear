@@ -35,7 +35,6 @@ const LoginScreen = () => {
 
       dispatch(setCredentials({ ...res }));
       navigate(redirect);
-      toast.success('Login successful');
     } catch (error) {
       toast.error(error?.data?.message || error.error.message);
     }
