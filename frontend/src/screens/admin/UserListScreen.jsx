@@ -32,11 +32,11 @@ const UserListScreen = () => {
       {isLoading ? (
         <Loader />
       ) : error ? (
-        <Message variant='danger'>
+        <Message variant="danger">
           {error?.data?.message || error.error}
         </Message>
       ) : (
-        <Table striped bordered hover responsive className='table-sm'>
+        <Table striped bordered hover responsive className="table-sm">
           <thead>
             <tr>
               <th>ID</th>
@@ -62,26 +62,24 @@ const UserListScreen = () => {
                   )}
                 </td>
                 <td>
-                  {!user.isAdmin && (
-                    <>
-                      <Button
-                        as={Link}
-                        to={`/admin/user/${user._id}/edit`}
-                        style={{ marginRight: '10px' }}
-                        variant='light'
-                        className='btn-sm'
-                      >
-                        <FaEdit />
-                      </Button>
-                      <Button
-                        variant='danger'
-                        className='btn-sm'
-                        onClick={() => deleteHandler(user._id)}
-                      >
-                        <FaTrash style={{ color: 'white' }} />
-                      </Button>
-                    </>
-                  )}
+                  <>
+                    <Button
+                      as={Link}
+                      to={`/admin/user/${user._id}/edit`}
+                      style={{ marginRight: '10px' }}
+                      variant="light"
+                      className="btn-sm"
+                    >
+                      <FaEdit />
+                    </Button>
+                    <Button
+                      variant="danger"
+                      className="btn-sm"
+                      onClick={() => deleteHandler(user._id)}
+                    >
+                      <FaTrash style={{ color: 'white' }} />
+                    </Button>
+                  </>
                 </td>
               </tr>
             ))}
