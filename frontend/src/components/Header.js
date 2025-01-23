@@ -5,6 +5,7 @@ import { FaShoppingCart, FaUser } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import logo from '../assets/logo.png';
+import SearchBox from './SearchBox';
 import { toast } from 'react-toastify';
 import  { useLogoutMutation } from '../slices/usersApiSlice';
 import  { logout } from '../slices/authSlice';
@@ -37,6 +38,7 @@ const Header = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
+              <SearchBox />
               <Nav.Link as={Link} to="/cart">
                 <FaShoppingCart /> Cart
                 {cartItems.length > 0 && (
