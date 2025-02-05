@@ -32,8 +32,8 @@ const Header = () => {
       <Navbar bg="dark" variant="dark" expand="md" collapseOnSelect>
         <Container>
           <Navbar.Brand as={Link} to="/">
-            <img src={logo} alt="ProShop" />
-            ProShop
+            <img src={logo} className="h-logo w-logo me-2" alt="SkyGear" />
+            SkyGear
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
