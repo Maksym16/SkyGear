@@ -6,7 +6,7 @@ import LinkButton from './LinkButton';
 const Enterprize = () => {
   return (
     <div className="enterprize-section py-5 py-lg-11 px-1 px-lg-0">
-      <h2 className="enterprize-header">Enterprize</h2>
+      <h2 className="header-white">Enterprize</h2>
       <div className="enterprize-body px-5">
         <div className="enterprize-content left">
           <div className="enterprize-content-left">

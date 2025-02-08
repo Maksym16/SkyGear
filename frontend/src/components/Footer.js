@@ -6,11 +6,11 @@ const Footer = () => {
   const currentYear = new Date().getFullYear()
 
   return (
-    <footer>
+    <footer className='enterprize-section'>
       <Container>
         <Row>
           <Col className='text-center py-3'>
-          <p>Shop-CMS &copy; {currentYear}</p>
+          <p>SkyGear &copy; {currentYear}</p>
           </Col>
         </Row>
       </Container>

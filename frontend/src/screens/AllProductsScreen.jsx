@@ -11,6 +11,7 @@ import { Link } from 'react-router-dom';
 import Meta from '../components/Meta';
 
 
+
 const AllProductsScreen = () => {
   const { pageNumber, keyword } = useParams();
   const { data, isLoading, error } = useGetProductsQuery({ keyword, pageNumber});
