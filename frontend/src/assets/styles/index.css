@@ -2,6 +2,10 @@ main {
   min-height: 80vh;
 }
 
+img {
+  background-color: transparent !important;
+}
+
 .rating span {
   margin: 0.1rem;
 }
@@ -94,6 +98,14 @@ table th {
   margin-bottom: 5rem;
 }
 
+.shop-all-section {
+  background-color: #2b3033;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 
 .link-button {
   width: fit-content;
@@ -173,6 +185,15 @@ table th {
   -webkit-text-stroke-color: #2b3033;
 }
 
+.gradient-bottom {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50%;
+  width: 100%;
+}
+
 /* SWIPER */
 .swiper-button-next,
 .swiper-button-prev {
@@ -182,6 +203,8 @@ table th {
   width: 30px !important;
   height: 30px !important;
   padding: 10px !important;
+  bottom: 10px !important;
+  top: 95% !important;
 }
 
 .swiper-button-next:after,
