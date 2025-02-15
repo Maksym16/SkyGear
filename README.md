@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a href="https://skygear.onrender.com" target="_blank">
-      SkyGear Banner
+      <img width="1676" alt="Screen Shot 2025-02-15 at 4 55 50 AM" src="https://github.com/user-attachments/assets/5c1b6f1c-3ff1-491a-85f8-a31b458870c2" />
     </a>
   <br />
 
