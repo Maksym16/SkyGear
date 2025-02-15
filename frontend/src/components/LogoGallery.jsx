@@ -19,7 +19,7 @@ const LogoGallery = () => {
 
   return (
     <div className='logo-gallery py-5 py-lg-11 px-1 px-lg-0'>
-     <h2>Brands we work with</h2>
+     <h2 className='header-black'>Brands we work with</h2>
     <div className="logo-gallery-wrapper">
       {logos.map((logo, index) => (
         <img key={index} src={logo.src} alt={logo.alt} />

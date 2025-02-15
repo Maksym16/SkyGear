@@ -60,13 +60,14 @@ table th {
   position: absolute;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: flex-end;
   left: 1rem;
   right: 0;
-  bottom: 0;
+  bottom: 5%;
   background: transparent;
   height: 60%;
-  padding-left: 10%;
+  padding-left: 5%;
+  z-index: 10;
 }
 
 .home-carousel-caption h2,
@@ -81,6 +82,8 @@ table th {
 .af-height-90 {
   max-height: 90vh;
   overflow: hidden;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+  width: 100%;
 }
 
 .carousel-indicators button {
@@ -175,22 +178,22 @@ table th {
 }
 
 .header-black {
-  color: transparent;
+  color: #2b3033;
   font-size: 57px;
   font-weight: 600;
   letter-spacing: -2px;
   line-height: 1;
   text-align: center;
   -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: #2b3033;
+  -webkit-text-stroke-color: #ffffff;
 }
 
-.gradient-bottom {
+.gradient{
   background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
   position: absolute;
   bottom: 0;
   left: 0;
-  height: 50%;
+  height: 100%;
   width: 100%;
 }
 
@@ -266,16 +269,6 @@ table th {
 }
 
 
-.logo-gallery h2 {
-  color: transparent;
-  font-size: 57px;
-  font-weight: 600;
-  letter-spacing: -2px;
-  line-height: 1;
-  text-align: center;
-  -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: #2b3033;
-}
 
 .logo-gallery img {
   max-width: 100px;

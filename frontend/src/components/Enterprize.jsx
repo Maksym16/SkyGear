@@ -21,7 +21,8 @@ const Enterprize = () => {
               implement the best UAV solution for their unique operational
               needs.
             </p>
-            <LinkButton link={'/page/1'} text="talk to an expert" />
+
+            <a href="mailto:skygear@gmail.com" target="_blank" rel="noreferrer" className='link-button'>talk to an expert!</a>
           </div>
           <div className="enterprize-content-right">
             <img className="h-auto w-100 mt-5" src={leftImg} alt="Enterprize" />
@@ -40,7 +41,6 @@ const Enterprize = () => {
               implement the best UAV solution for their unique operational
               needs.
             </p>
-            <LinkButton link={'/page/1'} text="visit drone nerds enterpriset" />
           </div>
           <div className="enterprize-content-right">
             <img

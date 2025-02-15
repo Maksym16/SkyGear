@@ -24,7 +24,7 @@ const Specialization = () => {
           <p className="text-white">
           We are one of the only DJI-authorized service centers in the United States and employ a group of experts technicians that can get you up and running quickly with genuine part
           </p>
-          <LinkButton link={'/'} text={'shop dji refurbished'}/>
+          <LinkButton link={'/page/1'} text={'shop dji refurbished'}/>
         </div>
       </div>
     </div>
