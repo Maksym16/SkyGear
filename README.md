@@ -1,6 +1,8 @@
 <div align="center">
   <br />
-  Banner
+    <a href="https://skygear.onrender.com" target="_blank">
+      SkyGear Banner
+    </a>
   <br />
 
 
@@ -13,7 +15,11 @@
 
   </div>
 
-  <h3 align="center">SkyGear</h3>
+  <h3 align="center">
+    <a href="https://skygear.onrender.com" target="_blank">
+      SkyGear
+    </a>
+  </h3>
 
    <div align="center">
  This is a fully functional eCommerce shop built for selling drones, developed using the MERN stack along with Redux Toolkit. The platform features a robust backend with a MongoDB database for managing drone inventory, product categories, and customer orders. The front end offers a seamless user interface, with state management powered by Redux. Authentication is handled securely with JWT, and the shop includes full order processing capabilities. From browsing and purchasing drones to managing an online store, this platform provides all the essential features for a modern eCommerce experience. 
