@@ -11,7 +11,7 @@ const HomeScreenCarousel = () => {
     <Message variant="danger">{error?.data?.message || error.error}</Message>
   ) : (
     <>
-      <Carousel pause="hover" className="af-height-90 af-max-width">
+      <Carousel pause="hover" className="af-max-width">
         {products.map((product) => (
           <Carousel.Item key={product._id}>
             <Link to={`/product/${product._id}`}>
@@ -26,7 +26,7 @@ const HomeScreenCarousel = () => {
                   {product.name}
                 </h2>
                 <p className="text-white text-left">${product.price}</p>
-                <LinkButton link={'/page/1'} text="shop now" />
+                <LinkButton link={`/product/${product._id}`} text="shop now" />
               </Carousel.Caption>
             </Link>
           </Carousel.Item>

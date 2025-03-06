@@ -9,7 +9,7 @@ import LinkButton from '../components/LinkButton';
 
 
 const HomeScreen = () => {
-  const { data: products, isLoading, error } = useGetTopProductsQuery();
+  const { data: products, isLoading } = useGetTopProductsQuery();
 
   return (
     <div>

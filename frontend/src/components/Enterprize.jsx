@@ -1,7 +1,6 @@
 import React from 'react';
 import leftImg from '../assets/images/hero-carousel-2.png';
 import rightImg from '../assets/images/hero-carousel-3.jpeg';
-import LinkButton from './LinkButton';
 
 const Enterprize = () => {
   return (
